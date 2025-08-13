@@ -25,6 +25,20 @@ Databases power everything: social media, banking, games, analytics, and more. M
 
 ---
 
+---
+
+## 📄 PDF Resources
+
+You can view PDF files directly in VS Code:
+- [SQL Databases PDF](external_info_collection/SQL%20Databases.pdf)
+- [Types of Databases - GeeksforGeeks PDF](external_info_collection/Types%20of%20Databases%20-%20GeeksforGeeks.pdf)
+
+**How to view:**
+- Click the link above or open the PDF file in the VS Code file explorer.
+- The built-in PDF viewer will display the document in a tab.
+
+If you want to use a dedicated PDF extension, search for "PDF" in the VS Code Extensions Marketplace (e.g., "vscode-pdf").
+
 ## 🧩 Repo Map
 - **database_study_guide.md**: 📖 Theory, diagrams, code, and projects
 - **examples/**: 🧪 SQL & Python code, mini-programs
