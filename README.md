@@ -3,6 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![SQL](https://img.shields.io/badge/SQL-Supported-orange.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Featured-blue.svg)
 
 ---
 
@@ -19,9 +20,13 @@ Databases power everything: social media, banking, games, analytics, and more. M
    ```
 2. **Start Learning**
    - Open `database_study_guide.md` and follow the learning path.
+   - Begin the PostgreSQL learning journey with `postgresql/lectures/01_introduction.md`.
+   - For a comprehensive overview, check `python-database-overview.md`.
+   - Use `postgres commands.md` as your PostgreSQL command reference.
    - Run code in `examples/` and try exercises/projects.
 3. **Test Yourself**
    - Use `database_tutor.py` for interactive quizzes and lessons.
+   - Practice with the examples in the PostgreSQL cheat sheet.
 
 ---
 
@@ -41,6 +46,9 @@ If you want to use a dedicated PDF extension, search for "PDF" in the VS Code Ex
 
 ## 🧩 Repo Map
 - **database_study_guide.md**: 📖 Theory, diagrams, code, and projects
+- **python-database-overview.md**: 📚 Comprehensive overview of database concepts in Python
+- **postgres commands.md**: 📝 PostgreSQL commands cheat sheet with detailed examples
+- **postgresql/lectures/**: 📘 PostgreSQL lecture series covering introduction to advanced topics
 - **examples/**: 🧪 SQL & Python code, mini-programs
 - **exercises/**: 📝 Guided questions and challenges
 - **projects/**: 🏗️ Real-world mini-projects
@@ -66,8 +74,11 @@ If you want to use a dedicated PDF extension, search for "PDF" in the VS Code Ex
 ## 🛠 Requirements
 - Python 3.x
 - SQLite (built-in)
+- PostgreSQL: For PostgreSQL lectures and examples (recommended)
+  - Installation: [PostgreSQL Downloads](https://www.postgresql.org/download/)
+  - Optional GUI: [DBeaver](https://dbeaver.io/) or [pgAdmin](https://www.pgadmin.org/)
 - For NoSQL/MongoDB: `pip install pymongo` + MongoDB server
-- For advanced SQL: MySQL or PostgreSQL (optional)
+- For advanced SQL: MySQL or other SQL databases (optional)
 
 ---
 
@@ -91,6 +102,20 @@ If you want to use a dedicated PDF extension, search for "PDF" in the VS Code Ex
 - Tweak code and see what happens!
 - Use guided questions and projects for real-world context
 - Stuck? Open an issue or ask for help
+
+---
+
+## 🐘 PostgreSQL Learning Path
+This repository includes a comprehensive PostgreSQL lecture series in `postgresql/lectures/`:
+
+1. **01_introduction.md**: Installation, basic concepts, and getting started
+2. **02_data_types.md**: Understanding PostgreSQL's rich data type system
+3. **03_queries_and_joins.md**: Mastering SELECT statements and JOINs
+4. **04_indexes_and_constraints.md**: Performance optimization and data integrity
+5. **05_transactions.md**: Managing database transactions and ACID properties
+6. **06_views_functions_procedures.md**: Creating reusable database objects
+
+For quick reference, check out the **postgres commands.md** file, which contains a comprehensive cheat sheet with detailed examples for common PostgreSQL operations.
 
 ---
 
