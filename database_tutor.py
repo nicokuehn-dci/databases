@@ -72,12 +72,12 @@ def main():
     for proj in projects:
         print(f"- {proj}")
 
-    print("\n=== Quizzes ===")
+    print("\n=== Quizzes (Sample Questions) ===")
     for topic, questions in quizzes.items():
         print(f"\n{topic} Quizzes:")
         for q, a in questions:
-            user_ans = input(f"Q: {q}\nYour answer: ")
-            print(f"Correct answer: {a}\n")
+            print(f"Q: {q}")
+            print(f"Sample answer: {a}\n")
 
     print("\n=== Additional Resources ===")
     print("- SQL Tutorial: https://www.w3schools.com/sql/")
